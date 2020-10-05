@@ -46,7 +46,7 @@ node_modules
 ```
 
 ## Commit
-Replace your usual commit command (e.g. `git commit`) by:
+Replace your usual commit command (e.g. `git commit -am`) by:
 ```sh
-git cz
+git cz -am
 ```
