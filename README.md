@@ -17,24 +17,14 @@ Having good (browseable and readable) commits guarantees a reliable collaborativ
 ## Prerequisites
 
 ### (Optional) (macOS) Install brew
-On macOS:
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
 ### (Optional) Install npm
-- On macOS:
-```sh
-brew install npm
-```
-- On Debian-like:
-```sh
-apt-get install npm
-```
-- On Alpine-like:
-```sh
-apk add npm
-```
+- On macOS: `brew install npm`
+- On Debian-like: `apt-get install npm`
+- On Alpine-like: `apk add npm`
 
 ### Install Commitizen
 ```sh
