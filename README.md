@@ -2,14 +2,14 @@
 These guidelines aim to have a good and standardized way to write and commit code.
 
 * [Coding Guidelines](#coding-guidelines)
-   * [Committing](#committing)
-      * [Prerequisites](#prerequisites)
-         * [(Optional) (macOS) Install brew](#optional-macos-install-brew)
-         * [(Optional) Install npm](#optional-install-npm)
-         * [Install Commitizen](#install-commitizen)
-         * [Init npm](#init-npm)
-         * [Seamless](#seamless)
-      * [Commit](#commit)
+* [Committing](#committing)
+   * [Prerequisites](#prerequisites)
+      * [(Optional) (macOS) Install brew](#optional-macos-install-brew)
+      * [(Optional) Install npm](#optional-install-npm)
+      * [Install Commitizen](#install-commitizen)
+   * [Init project folder](#init-project-folder)
+      * [Seamless](#seamless)
+   * [Commit](#commit)
 
 # Committing
 Having good (browseable and readable) commits guarantees a reliable collaborative work in space and time. To address this topic, we use Commitizen to have standardized and readable commits in our projects.
@@ -31,7 +31,7 @@ Having good (browseable and readable) commits guarantees a reliable collaborativ
 npm install commitizen -g
 ```
 
-### Init npm
+## Init project folder
 ```sh
 npm init
 commitizen init cz-conventional-changelog --save-dev --save-exact
